@@ -11,7 +11,7 @@ function spm5_devtool()
 %% 主窗口
 screenSize = get(0,'ScreenSize');
 rvf = figure('Units','pixel','Position',[screenSize(3)/2-250 screenSize(4)/2-300 500 600],...
-    'Name','Develop tool for SPM5 toolbox by LSRC (2008)', 'NumberTitle','off','resize','on','MenuBar', 'None','tag','UIconfigwindow'); 
+    'Name','Develop tool for SPM5 toolbox by renwei, LSRC (2008)', 'NumberTitle','off','resize','on','MenuBar', 'None','tag','UIconfigwindow'); 
 %% 按钮
 hp = uipanel(rvf,'Title','添加元件','FontSize',12,...
              'Position',[.05 .1 .3 .85],'tag','elementspanel');
